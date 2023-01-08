@@ -11,6 +11,10 @@ document.addEventListener('mouseover', function (e) {
  }
 });
 
+button.addEventListener('click', function () {
+ alert('Button clicked!');
+});
+
 window.onmousemove = function (e) {
  var x = e.clientX,
   y = e.clientY;
